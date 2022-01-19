@@ -58,7 +58,7 @@ nav .logo {
 /* header*/
 
 .header-container {
-    background: rgb(48, 48, 48) url("");
+    background: rgb(255, 255, 255) url("bgmain.jpg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -71,31 +71,4 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-header h1 {
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 75px;
-    color: rgb(180, 42, 42);
-    margin-bottom: 5px;
-
-}
-
-header p {
-    font-size: 22px;
-    line-height: 42px;
-    color: rgb(255, 255, 255);
-    margin-bottom: 30px;
-    width: 418px;
-}
-
-header a {
-    color: #ffffff;
-    font-size: 24px;
-    text-decoration: none;
-
-    background: #189651;
-    padding:14px 24px;
-    border-radius: 10px;
 }
