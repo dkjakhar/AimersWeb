@@ -58,7 +58,7 @@ nav .logo {
 /* header*/
 
 .header-container {
-    background: rgb(48, 48, 48) url("");
+    background: rgb(48, 48, 48) url("bgmain.jpg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
