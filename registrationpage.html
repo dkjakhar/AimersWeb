@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registration.css">
 </head>
 <body>
     <div class="nav-container">
@@ -17,26 +17,35 @@
                 </div>
     
                 <ul class="nav-items">
-                    
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="">Blog</a>
-                    </li>
-                    <li>
-                        <a href="">About</a>
-                    </li>
-                    <li>
-                        <a href="">Contact</a>
-                    </li>
-                    
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
+                
             </nav>
         </div>
     </div>
-
-    <p> Already have an account? </p><a href="loginpage.html"><b>Login</b></a>
+    <div class="header-container">
+        <div class="wrapper">
+            <body>    
+                <div class="form">
+                    <div class="login">
+                      <div class="login-header">
+                        <h1>Register Now</h1>
+                        <p>Please enter your credentials to register.</p>
+                      </div>
+                    </div>
+                    <form class="login-form">
+                      <input type="text" placeholder="Name"/>
+                      <input type="email" placeholder="Email"/>
+                      <input type="password" placeholder="Password"/>
+                      <input type="password" placeholder="Confirm Password"/>
+                      <button>login</button>
+                      <p class="message">Have an account? <a href="loginpage.html">Login Now</a></p>
+                    </form>  
+        </div>
+    </div>
 
     <script src="main.js"></script>
 </body>

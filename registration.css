@@ -67,6 +67,7 @@ nav .logo {
     align-items: center;
 }
 
+
 .form {
     position: relative;
     z-index: 1;
@@ -77,6 +78,7 @@ nav .logo {
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
+
   .form input {
     font-family: "Roboto", sans-serif;
     outline: 0;
